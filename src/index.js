@@ -15,7 +15,7 @@ root.render(
     <BrowserRouter> {/* Cambiado a BrowserRouter */}
         <Routes>
             <Route path="/" element={<Inicio />} /> {/* Aquí se muestra la interfaz de inicio */}
-            <Route path="/opciones" element={<Opciones />} /> {/* Asegúrate de que el nombre sea correcto */}
+            <Route path="/opciones" element={<Opciones />} /> {/* componente de opciones*/}
             <Route path="/inventario" element={<Inventario />} /> {/* Componente de inventario */}
             <Route path="/registro" element={<Registro />} /> {/* Componente de inventario */}
         </Routes>
