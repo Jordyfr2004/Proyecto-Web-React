@@ -1,0 +1,106 @@
+table {
+  width: 90%; /* Cambia el porcentaje según el ancho deseado */
+  margin: 0 auto; /* Centra la tabla */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #f8f9fa;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.1);
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos para el contenedor de la tabla */
+.tabla-container {
+  max-height: 300px; /* Altura máxima del contenedor */
+  overflow-y: auto;  /* Habilitar el desplazamiento vertical */
+  margin: 20px auto; /* Espaciado alrededor del contenedor y centrado */
+}
+/* Estilos generales para los botones */
+.guardar, .cancelar, .editar, .eliminar {
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 2px;
+}
+
+/* Estilos específicos para cada botón */
+.guardar {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+}
+
+.guardar:hover {
+  background-color: #45A049;
+}
+
+.cancelar {
+  background-color: #f44336; /* Rojo */
+  color: white;
+}
+
+.cancelar:hover {
+  background-color: #e53935;
+}
+
+.editar {
+  background-color: #2196F3; /* Azul */
+  color: white;
+}
+
+.editar:hover {
+  background-color: #1976D2;
+}
+
+.eliminar {
+  background-color: #FF5722; /* Naranja */
+  color: white;
+}
+
+.eliminar:hover {
+  background-color: #E64A19;
+}
+/* Quitar bordes de celdas en modo de edición */
+td {
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Borde normal de las celdas */
+}
+
+td:has(input), td:has(select) {
+  border: none; /* Quita el borde en las celdas que contienen input o select */
+}
+
+/* Opcional: agregar estilos para los inputs dentro de las celdas si deseas */
+td input, td select {
+  border: 1px solid #ccc; /* Borde suave para los inputs */
+  border-radius: 4px;
+  padding: 6px;
+  width: 100%; /* Asegura que el input ocupe todo el espacio de la celda */
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+
+
+  

@@ -1,0 +1,59 @@
+[
+    {
+        "marca": "Dell",
+        "serie": "SN111111",
+        "adquisicion": "2023-01-15",
+        "descripcion": "Laptop Intel Core i7, 16GB RAM, 512GB SSD",
+        "mantenimiento": "2024-01-20",
+        "descripcionMantenimiento": "Revisión general y actualización de software",
+        "estado": "EN USO",
+        "lugar": "Facultad CVT LAB-206",
+        "responsable": "Oswaldo Castro"
+    },
+    {
+        "marca": "HP",
+        "serie": "SN22222",
+        "adquisicion": "2022-06-10",
+        "descripcion": "Monitor 24 pulgadas Full HD",
+        "mantenimiento": "2023-12-05",
+        "descripcionMantenimiento": "Cambio de caset y limpieza",
+        "estado": "EN USO",
+        "lugar": "Facultad CVT LAB-206",
+        "responsable": "Vargas López"
+    },
+    {
+        "marca": "Lenovo",
+        "serie": "SN333333",
+        "adquisicion": "2021-11-25",
+        "descripcion": "Monitor 24 pulgadas Full HD",
+        "mantenimiento": "2023-05-15",
+        "descripcionMantenimiento": "No especificado",
+        "estado": "DAÑADO",
+        "lugar": "Facultad CVT LAB-206",
+        "responsable": "No asignado"
+    },
+    {
+        "marca": "Lenovo",
+        "serie": "SN8888888",
+        "adquisicion": "2021-11-25",
+        "descripcion": "Monitor 24 pulgadas Full HD",
+        "mantenimiento": "2023-05-15",
+        "descripcionMantenimiento": "No especificado",
+        "estado": "DAÑADO",
+        "lugar": "Facultad CVT LAB-206",
+        "responsable": "No asignado"
+    },
+    {
+        "marca": "Lenovo",
+        "serie": "SN1000000000",
+        "adquisicion": "2021-11-25",
+        "descripcion": "Monitor 24 pulgadas Full HD",
+        "mantenimiento": "2023-05-15",
+        "descripcionMantenimiento": "Ajuste de color y limpieza de pantalla",
+        "estado": "EN USO",
+        "lugar": "Facultad CVT LAB-206",
+        "responsable": "Maria Arcentales"
+    }
+]
+
+  

@@ -1,0 +1,159 @@
+.header_inv {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+
+.container_inv {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    max-width: 1330px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 25px; /* Añade más espacio solo en la parte inferior */
+    padding-top: 1px; /* Añade espacio en la parte superior */
+}
+
+.header_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 20px; /* Ajusta este valor según lo necesario */
+    
+}
+
+.totales_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.texto1_inv {
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+}
+.container_tab {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 450px;
+    max-width: 1330px; /* Mismo ancho que container_inv */
+    margin: 0 auto; /* Centrar en la página */
+    border-radius: 10px;
+    margin-top: 30px; /* Añade espacio entre los contenedores */
+}
+.container_input{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-top: 10px;
+}
+.search_label {
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+    padding-left: 20px; /* Ajusta este valor según lo necesario */
+    margin-top: 10px;
+}
+.search_select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    margin-top: 10px;
+}
+.search_input {
+    width: 450px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: -25px; /* Reduce el espacio a la derecha del input */
+    outline: none;
+    margin-top: 10px;
+}
+.search_button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.search_button:hover {
+    background-color: #0056b3;
+}
+/* Estilo para el contenedor del interruptor */
+.switch-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+/* Estilo para el interruptor */
+.switch-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+input[type="checkbox"]:checked + .slider {
+    background-color: #4caf50;
+}
+
+input[type="checkbox"]:checked + .slider::before {
+    transform: translateX(20px);
+}
+.download_button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+
+.download_button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+/* Opciones.css */
+.container {
+   background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombreado */
+}
+
+.texto1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.texto2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.botonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.boton {
+    padding: 20px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1 1 200px;
+    max-width: 200px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombreado en los botones */
+}
+.boton:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 9); /* Sombreado más fuerte al pasar el mouse */
+}
+

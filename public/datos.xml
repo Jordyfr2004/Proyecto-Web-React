@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+    <equipo>
+        <marca>Dell</marca>
+        <serie>SN4444</serie>
+        <adquisicion>2023-01-15</adquisicion>
+        <descripcion>Laptop Intel Core i7, 16GB RAM, 512GB SSD</descripcion>
+        <mantenimiento>2024-01-20</mantenimiento>
+        <descripcionMantenimiento>Cambio de ram</descripcionMantenimiento>
+        <estado>EN USO</estado>
+        <lugar>Facultad CVT LAB-203</lugar>
+        <responsable>Mario Arcentales</responsable>
+    </equipo>
+    <equipo>
+        <marca>HP</marca>
+        <serie>SN555555</serie>
+        <adquisicion>2022-06-10</adquisicion>
+        <descripcion>Monitor 24 pulgadas Full HD</descripcion>
+        <mantenimiento>2023-12-05</mantenimiento>
+        <descripcionMantenimiento>Cambio de monitor y limpieza</descripcionMantenimiento>
+        <estado>EN USO</estado>
+        <lugar>Facultad CVT LAB-203</lugar>
+        <responsable>María López</responsable>
+    </equipo>
+    <equipo>
+        <marca>Lenovo</marca>
+        <serie>SG77777</serie>
+        <adquisicion>2021-11-25</adquisicion>
+        <descripcion>Monitor 24 pulgadas Full HD</descripcion>
+        <mantenimiento>2023-05-15</mantenimiento>
+        <descripcionMantenimiento>Ajuste de color y limpieza de pantalla</descripcionMantenimiento>
+        <estado>EN USO</estado>
+        <lugar>Facultad CVT LAB-203</lugar>
+        <responsable>Carlos zambrano</responsable>
+    </equipo>
+</inventario>
