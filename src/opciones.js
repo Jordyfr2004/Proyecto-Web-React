@@ -10,8 +10,6 @@ export function Opciones() {
 
     const handleClick = () => navigate('/inventario');
     const handleClick1 = () => navigate('/registro');
-    const handleGenerarReportes = () => setMostrarMiniventana(true);
-    const cerrarMiniventana = () => setMostrarMiniventana(false);
 
     return (
         <div className="container">
