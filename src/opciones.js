@@ -1,13 +1,11 @@
 // src/Opciones.js 
-import React, { useState } from 'react';
+
 import { useNavigate } from 'react-router-dom';
 
 import '../src/estilos/estilo_op.css';
 
 export function Opciones() {
     const navigate = useNavigate();
-    const [mostrarMiniventana, setMostrarMiniventana] = useState(false);
-
     const handleClick = () => navigate('/inventario');
     const handleClick1 = () => navigate('/registro');
 
